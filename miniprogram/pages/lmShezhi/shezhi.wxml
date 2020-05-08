@@ -1,0 +1,6 @@
+<!--miniprogram/pages/lmShezhi/shezhi.wxml-->
+<view class="backView">
+  <text>每次单词量:{{wordNumber}}</text>
+  <input class="number" bindblur="wordNumberInput"></input>
+  <button class="ok" bindtap="wordNumberButton" size="mini">ok</button>
+</view>

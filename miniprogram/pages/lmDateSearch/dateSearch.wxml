@@ -1,0 +1,13 @@
+<!--miniprogram/pages/lmDateSearch/dateSearch.wxml-->
+<view class="backView">
+  <view class="shang">
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">
+        选择日期: {{date}}
+      </view>
+    </picker>
+    <view class="select">{{selectDate}}</view>
+  </view>
+  <view class="jieguo">当天单词量：{{res[0].value}}</view>
+  <button class="search" bindtap="search">查找</button>
+</view>

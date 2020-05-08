@@ -1,0 +1,29 @@
+/* miniprogram/pages/lmBeici/beici.wxss */
+
+.backView {
+  height: 100vh;
+  background-color: rgb(153, 245, 214);
+  padding: 10px;
+  padding-top: 20px;
+}
+.word{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: font;
+  background-color: lightblue;
+}
+.fanyi {
+  text-align: center;
+  font-size: larger;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(221, 177, 235);
+}
+.renshi{
+  margin-top: 100px;
+  background-color: white;
+  opacity: 0.5;
+  display: flex;
+}

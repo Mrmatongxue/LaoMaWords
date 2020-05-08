@@ -1,0 +1,15 @@
+<!--miniprogram/pages/lmCollection/collection.wxml-->
+<view class="backView">
+  <view class="shoucang">收 藏</view>
+  <view class="one" wx:for="{{wordsCollection}}" wx:for-item="word" wx:for-index="wordIndex">
+    <view class="zuo">
+      <view class="shang">{{word.word}}</view>
+      <view class="xia">{{word.translist}}</view>
+    </view>
+    <view class="you">
+      <button class="quxiao" data-wordIndex="{{wordIndex}}" bindtap="cancel" size="mini">取消收藏</button>
+    </view>
+
+  </view>
+  <view class="status">{{status}}</view>
+</view>

@@ -1,0 +1,30 @@
+/* miniprogram/pages/lmDateSearch/dateSearch.wxss */
+.backView {
+  height: 100vh;
+  background-color: rgb(153, 245, 214);
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.picker {
+  background-color: grey;
+  color: white;
+  opacity: 0.5;
+}
+
+.select {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.search {
+  background-color: white;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 5%;
+  left: 20%;
+}
+
+.jieguo {
+  font-size: x-large;
+}

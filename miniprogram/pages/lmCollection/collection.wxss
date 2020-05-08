@@ -1,0 +1,46 @@
+/* miniprogram/pages/lmCollection/collection.wxss */
+
+.status {
+  text-align: center;
+  padding: 10px;
+  color: lightblue;
+}
+
+.backView {
+  height: 100vh;
+  background-color: rgb(153, 245, 214);
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.shoucang {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(66, 66, 180);
+}
+
+.one {
+  margin-top: 10px;
+  background: white;
+  display: flex;
+}
+
+.shang {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.xia {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.zuo{
+  width: 40vh;
+}
+
+.quxiao{
+  color: grey;
+}

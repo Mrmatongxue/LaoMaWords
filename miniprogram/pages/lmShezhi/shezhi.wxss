@@ -1,0 +1,16 @@
+/* miniprogram/pages/lmShezhi/shezhi.wxss */
+.backView {
+  height: 100vh;
+  background-color: rgb(170, 135, 216);
+  padding: 10px;
+  padding-top: 20px;
+}
+.number{
+  background-color: white;
+  opacity: 0.5;
+}
+.ok{
+  margin-left: 25vh;
+  background-color: black;
+  color: white;
+}

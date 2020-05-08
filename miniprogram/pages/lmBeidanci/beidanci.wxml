@@ -1,0 +1,4 @@
+<view class="backView" style="background-image:url('http://cdn.mrabit.com/1920.2020-05-08.jpg');background-size: cover">
+  <button class="kaishi" bindtap="kaishibeici">开始背词之旅</button>
+  <button class="xuanze" bindtap="xuanzecishu">选择词书</button>
+</view>

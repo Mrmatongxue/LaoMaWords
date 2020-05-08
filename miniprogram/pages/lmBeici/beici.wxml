@@ -1,0 +1,11 @@
+<!--miniprogram/pages/lmBeici/beici.wxml-->
+<view class="backView">
+  <view class="word">{{word}}</view>
+  <view class="fanyi" wx:for="{{translist}}" wx:for-item="trans">{{trans.dst}}</view>
+
+  <button class="shoucang" bindtap="shoucang">{{shoucang}}</button>
+  <view class="renshi">
+    <button bindtap="beiguo">认识</button>
+    <button bindtap="meibeiguo">不认识</button>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+/* miniprogram/pages/lmBeidanci/beidanci.wxss */
+
+.xuanze {
+  position: fixed;
+  bottom: 0%;
+  size: default;
+  opacity: 0.5;
+  background-color: white;
+  color: black;
+  left: 20%;
+}
+
+.kaishi {
+  margin-top: 35vh;
+  opacity: 0.5;
+  background-color: white;
+  color: black;
+}
+
+.backView {
+  height: 100vh;
+}

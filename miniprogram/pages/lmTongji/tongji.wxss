@@ -1,0 +1,29 @@
+/* miniprogram/pages/lmTongji/tongji.wxss */
+
+.backView {
+  height: 100vh;
+  background-color: rgb(125, 201, 224);
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.one {
+  margin-top: 60px;
+}
+
+.two {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  border-radius: 16px;
+}
+
+.three {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 7px;
+  border-radius: 16px;
+
+}

@@ -1,0 +1,34 @@
+<!--miniprogram/pages/lmCishu/cishu.wxml-->
+<view class="backView">
+  <view>
+    <view class="cishu">当前词书：{{dangqian}}</view>
+    <view class="jindu">当前进度{{number}}/{{total}}</view>
+  </view>
+  <view>
+    <button class="chongbei" bindtap="chongzhi" size="mini">重背词书</button>
+  </view>
+  <view class="xia">
+    <button class="liuji" bindtap="cet6">六级词汇</button>
+    <button class="siji" bindtap="cet4">四级词汇</button>
+  </view>
+  <view class="xia">
+    <button class="liuji" bindtap="cet6">考研词汇</button>
+    <button class="siji" bindtap="cet4">高考词汇</button>
+  </view>
+  <view class="xia">
+    <button class="siji" bindtap="cet4">小学词汇</button>
+    <button class="liuji" bindtap="cet6">初中词汇</button>
+  </view>
+  <view class="xia">
+    <button class="siji" bindtap="cet4">高中词汇</button>
+    <button class="liuji" bindtap="cet6">专四词汇</button>
+  </view>
+  <view class="xia">
+    <button class="siji" bindtap="cet4">专八词汇</button>
+    <button class="liuji" bindtap="cet6">考博词汇</button>
+  </view>
+  <view class="xia">
+    <button class="siji" bindtap="cet4">托福词汇</button>
+    <button class="liuji" bindtap="cet6">雅思词汇</button>
+  </view>
+</view>

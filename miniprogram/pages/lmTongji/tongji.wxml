@@ -1,0 +1,19 @@
+<!--miniprogram/pages/lmTongji/tongji.wxml-->
+<view class="backView">
+  <view class="one">
+    <view class="two">
+      <button id="shoucang" bindtap="collection" size="mini">收 藏</button>
+    </view>
+  </view>
+  <view class="one">
+    <view class="three">
+      <button id="riqi" bindtap="dateSearch" size="mini">日期查找</button>
+    </view>
+  </view>
+  <view class="one">
+    <view class="two">
+      <button id="shezhi" bindtap="shezhiButton" size="mini">设 置</button>
+    </view>
+  </view>
+
+</view>

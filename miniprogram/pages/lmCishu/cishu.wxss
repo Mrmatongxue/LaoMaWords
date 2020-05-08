@@ -1,0 +1,41 @@
+/* miniprogram/pages/lmCishu/cishu.wxss */
+
+.backView {
+  height: 100vh;
+  background-color: lightgreen;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.cishu {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.jindu {
+  text-align: center;
+  font-size: small;
+}
+
+.chongbei {
+  margin-left: 40vh;
+  font-size: small;
+  color: rgb(100, 100, 100);
+}
+
+.xia {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.siji {
+  background-color: white;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.liuji {
+  background-color: white;
+  opacity: 0.5;
+}

@@ -1,0 +1,43 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/lmBeidanci/beidanci",
+    "pages/lmChadanci/chadanci",
+    "pages/lmTongji/tongji",
+    "pages/lmBeici/beici",
+    "pages/lmCishu/cishu",
+    "pages/lmDateSearch/dateSearch",
+    "pages/lmCollection/collection"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lmBeidanci/beidanci",
+        "text": "背词",
+        "iconPath": "/images/icon1/icon1.png",
+        "selectedIconPath": "/images/icon2/icon1.png"
+      },
+      {
+        "pagePath": "pages/lmChadanci/chadanci",
+        "text": "查词",
+        "iconPath": "/images/icon1/icon2.png",
+        "selectedIconPath": "/images/icon2/icon2.png"
+      },
+      {
+        "pagePath": "pages/lmTongji/tongji",
+        "text": "我的",
+        "iconPath": "/images/icon1/icon3.png",
+        "selectedIconPath": "/images/icon2/icon3.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

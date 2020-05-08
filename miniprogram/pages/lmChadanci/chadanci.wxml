@@ -1,0 +1,11 @@
+<!--miniprogram/pages/lmChadanci/chadanci.wxml-->
+<view class="backView" style="background-image:url('http://cdn.mrabit.com/1920.2020-05-06.jpg');background-size: cover">
+  <view class="shang">
+    <input class="shuru" bindblur="toSearchWord"></input>
+    <button class="chazhao" bindtap="searchWord" size="mini">查找</button>
+  </view>
+  <view class="xia">
+    <text class="word">{{word}}</text>
+    <view class="jieguo" wx:for="{{translist}}" wx:for-item="trans">{{trans.dst}}</view>
+  </view>
+</view>
